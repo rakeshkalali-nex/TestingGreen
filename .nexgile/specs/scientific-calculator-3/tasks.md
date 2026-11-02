@@ -12,6 +12,7 @@
   - _Files: package.json, package-lock.json, scripts/dev.mjs, scripts/test.mjs, .gitignore, README.md, server/pom.xml, server/src/main/java/com/scientificcalculator/**, server/src/main/resources/**, server/src/test/**, web/package.json, web/vite.config.ts, web/tsconfig*.json, web/index.html, web/src/main.tsx, web/src/App.tsx, web/src/styles/tokens.css, web/src/styles/global.css, web/src/shared/**, web/src/test/**, web/src/screens/calculator/CalculatorScreen.tsx, web/src/screens/history/HistoryScreen.tsx, web/src/screens/preferences/PreferencesScreen.tsx, playwright.config.ts, e2e/.gitkeep_
   - _Verify: npm test_
   - _Area: setup_
+  - _Issue: #1_
 
 - [ ] 2. Scientific Calculator — complete expression entry and results
   - Replace the calculator placeholder with the finished screen: expression display above the result, degree/radian selector, scientific-function strip, four-column digit/operator keypad, backspace, Clear, full-width Calculate and Copy result. Use a centered desktop card and wrapped phone controls with screen-owned styles using shared tokens; preserve visible focus, labelled controls and no horizontal page scrolling at 360 and 1280 pixels.
@@ -23,6 +24,7 @@
   - _Verify: npm run test --workspace web -- CalculatorScreen_
   - _Verify: npm run build --workspace web_
   - _Area: ui_
+  - _Issue: #2_
 
 - [ ] 3. Calculation history — browse, reuse and remove saved calculations
   - Replace the history placeholder with the finished screen: newest-first cards showing expression, saved result, angle unit and local date/time, total count, Reuse/Delete actions, Clear history, Previous/Next pagination and Back to Scientific Calculator. Put desktop actions beside entries and wrap them below on phones; add screen-owned styles using shared tokens with visible focus and no horizontal page scrolling at 360 and 1280 pixels.
@@ -34,6 +36,7 @@
   - _Verify: npm run test --workspace web -- HistoryScreen_
   - _Verify: npm run build --workspace web_
   - _Area: ui_
+  - _Issue: #3_
 
 - [ ] 4. Calculator preferences — save angle unit and display precision
   - Replace the preferences placeholder with the finished settings card: degree/radian segmented choices, labelled significant-digits input and range helper, save status, Reset preferences and Back to Scientific Calculator. Align labels/controls in two desktop columns and stack them on phones; add screen-owned styles using shared tokens, visible focus and no horizontal page scrolling at 360 and 1280 pixels.
@@ -45,6 +48,7 @@
   - _Verify: npm run test --workspace web -- PreferencesScreen_
   - _Verify: npm run build --workspace web_
   - _Area: ui_
+  - _Issue: #4_
 
 ## Assumptions
 
